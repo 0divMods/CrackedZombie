@@ -41,21 +41,21 @@ public class JSON5ConfigManager {
 
     private void initializeMetadata() {
         // --- Spawn settings ---
-        addInt("minSpawn", 2, 1, 64,
+        addInt("minSpawn", 1, 1, 64,
                 "Minimum number of Cracked Zombies per spawn event");
-        addInt("maxSpawn", 10, 1, 128,
+        addInt("maxSpawn", 5, 1, 128,
                 "Maximum number of Cracked Zombies per spawn event");
-        addInt("zombieSpawnProb", 15, 1, 100,
+        addInt("zombieSpawnProb", 10, 1, 100,
                 "Relative probability of zombie spawning (higher = more frequent)");
-        addBool("spawnInCreative", false,
+        addBool("spawnInCreative", true,
             "Allow Cracked Zombies to spawn around players in Creative mode");
         addBool("zombieSpawns", false,
                 "Allow vanilla zombie spawns alongside Cracked Zombies (false = only Cracked Zombies spawn)");
         addBool("daySpawning", true,
                 "Allow Cracked Zombies to spawn during daytime");
-        addInt("minSpawnDistance", 12, 4, 64,
+        addInt("minSpawnDistance", 25, 4, 64,
             "Minimum distance from player for Cracked Zombie cluster spawns (in blocks)");
-        addInt("maxSpawnDistance", 24, 8, 128,
+        addInt("maxSpawnDistance", 80, 8, 128,
             "Maximum distance from player for Cracked Zombie cluster spawns (in blocks)");
         addInt("spawnIntervalTicks", 120, 20, 1200,
                 "How often the mod checks for Cracked Zombie spawns around each player (in ticks)");
@@ -69,19 +69,19 @@ public class JSON5ConfigManager {
                 "Allow Cracked Zombies to break down doors");
         addBool("sickness", true,
                 "Apply Poison effect to players hit by a Cracked Zombie");
-        addInt("poisonDuration", 100, 20, 600,
+        addInt("poisonDuration", 20, 20, 600,
                 "Duration of poison effect in ticks (20 ticks = 1 second)");
         addInt("poisonAmplifier", 0, 0, 4,
                 "Amplifier of poison effect (0 = Poison I, 1 = Poison II, etc.)");
 
         // --- Speed & aggro settings ---
-        addDouble("moveSpeed", 0.35, 0.1, 1.5,
+        addDouble("moveSpeed", 0.30226672535211263, 0.1, 1.5,
                 "Movement speed of Cracked Zombies (vanilla zombie = 0.23)");
-        addDouble("aggroRange", 40.0, 8.0, 128.0,
+        addDouble("aggroRange", 32.19179137323944, 8.0, 128.0,
                 "Distance in blocks at which Cracked Zombies detect players");
         addDouble("hiddenAggroRange", 10.0, 2.0, 128.0,
                 "Detection distance in blocks when a Cracked Zombie does not have line of sight to the player");
-        addDouble("followRange", 64.0, 16.0, 256.0,
+        addDouble("followRange", 39.843529929577464, 16.0, 256.0,
                 "Maximum distance in blocks Cracked Zombies will chase a player");
         addInt("farNavigationRefreshDistance", 32, 8, 128,
                 "Distance from a zombie's target where path refreshes begin slowing down");

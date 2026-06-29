@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog and this project follows semantic versioning.
 
-## [1.0.0-beta.2] - 2026-04-18
+## [1.0.0] - 2026-06-29
 
 ### Added
 - Line-of-sight aware aggro tuning with a separate reduced hidden aggro range for zombies that cannot see their target.
@@ -15,6 +15,8 @@ The format is based on Keep a Changelog and this project follows semantic versio
 - Staggered target scans and path refresh work to smooth server-side zombie AI updates in multiplayer sessions.
 - Slowed path recalculation for distant targets and skipped unnecessary navigation refreshes when targets have not moved enough.
 - Reduced cluster spawn pressure by stopping new spawns when too many cracked zombies are already near a player.
+- Removed beta version tags for the stable publish build.
+- Tuned default spawn rates, spawn distances, poison duration, movement speed, aggro range, and follow range for a less overwhelming default experience.
 
 ### Fixed
 - Restored daylight fire clearing every tick so cracked zombies no longer ignite periodically when daytime spawning is enabled.
