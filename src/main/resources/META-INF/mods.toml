@@ -1,13 +1,13 @@
 modLoader="javafml"
 loaderVersion="${loader_version_range}"
 license="${mod_license}"
-issueTrackerURL="https://github.com/0dividedby0/CrackedZombie/issues"
+issueTrackerURL="https://github.com/0divMods/CrackedZombie/issues"
 
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-displayURL="https://github.com/0dividedby0/CrackedZombie"
+displayURL="https://github.com/0divMods/CrackedZombie"
 logoFile="crackedzombies_logo.png"
 credits="${mod_credits}"
 authors="${mod_authors}"

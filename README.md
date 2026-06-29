@@ -140,8 +140,8 @@ src/main/java/com/dividedby0/crackedzombies/
 
 ## Project Links
 
-- Repository: https://github.com/0dividedby0/CrackedZombie
-- Issues: https://github.com/0dividedby0/CrackedZombie/issues
+- Repository: https://github.com/0divMods/CrackedZombie
+- Issues: https://github.com/0divMods/CrackedZombie/issues
 
 ## Release Notes (1.0.0)
 
